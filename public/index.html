@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFit - push yourself to another level</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div id="body-overlay"></div>
+
+    <div class="side-bar-menu" id="side-bar">
+        <i class="fa-solid fa-xmark" id="close-btn"></i>
+        <ul>
+            <li>
+                <a href="#home" class="hover-bg-red">home</a>
+            </li>
+            <li>
+                <a href="#about" class="hover-bg-red">about</a>
+            </li>
+            <li>
+                <a href="#features" class="hover-bg-red">features</a>
+            </li>
+            <li>
+                <a href="#pricing" class="hover-bg-red">pricing</a>
+            </li>
+            <li>
+                <a href="#trainers" class="hover-bg-red">trainers</a>
+            </li>
+            <li>
+                <a href="#blogs" class="hover-bg-red">blogs</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <nav class="padding-container primary-bg">
+
+        <div class="main-nav-container width-container">
+            <a href="#home" class="logo">
+                <span>be</span>
+                <span>fit</span>
+            </a>
+
+            <ul>
+                <li>
+                    <a href="#home" class="hover-bg-red">home</a>
+                </li>
+                <li>
+                    <a href="#about" class="hover-bg-red">about</a>
+                </li>
+                <li>
+                    <a href="#features" class="hover-bg-red">features</a>
+                </li>
+                <li>
+                    <a href="#pricing" class="hover-bg-red">pricing</a>
+                </li>
+                <li>
+                    <a href="#trainers" class="hover-bg-red">trainers</a>
+                </li>
+                <li>
+                    <a href="#blogs" class="hover-bg-red">blogs</a>
+                </li>
+            </ul>
+
+            <button id="hammenu-btn" class="hammenu-btn">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero-container padding-container" id="home">
+
+        <div class="swiper width-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-container" style="background-image: url('../assets/home-bg-1.jpg');">
+                    <span class="clr-neutral-200">Be Strong, Be Fit</span>
+                    <span class="heading">make yourself stronger</span>
+                    <span class="heading">than excuses.</span>
+                    <button class="btn">
+                        get started
+                    </button>
+                </div>
+                <div class="swiper-slide slide-container" style="background-image: url('../assets/home-bg-2.jpg');">
+                    <span class="clr-neutral-200">Break Yourself, To Build Yourself</span>
+                    <span class="heading">make yourself stronger</span>
+                    <span class="heading">than yourself.</span>
+                    <button class="btn">
+                        get started
+                    </button>
+                </div>
+                <div class="swiper-slide slide-container" style="background-image: url('../assets/home-bg-3.jpg');">
+                    <span class="clr-neutral-200">Put Yourself In Light</span>
+                    <span class="heading">Make a change</span>
+                    <span class="heading">a big one.</span>
+                    <button class="btn">
+                        get started
+                    </button>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+
+    <section class="padding-container margin-block" id="about">
+        <div class="width-container about-container">
+
+            <div class="about-container__img-container">
+                <img src="./assets/about-img.jpg" alt="bodybuilder image">
+            </div>
+
+            <div class="about-container__info-container">
+                <span class="clr-neutral-200">About Us</span>
+                <div class="heading">Everyday Is A Chance To Become Better</div>
+                <p class="faded">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe perspiciatis quam
+                    optio
+                    aspernatur assumenda, amet at sint reiciendis id quas. Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Architecto, atque?</p>
+
+                <div class="about-container__info-container__specs-container">
+                    <div class="about-container__info-container__specs-container__spec-card">
+                        <div class="about-container__info-container__specs-container__spec-card__head">
+                            <i class="fa-solid fa-check"></i>
+                            <span>body and mind</span>
+                        </div>
+                        <p class="about-container__info-container__specs-container__spec-card__info">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. hic sed
+                        </p>
+                    </div>
+                    <div class="about-container__info-container__specs-container__spec-card">
+                        <div class="about-container__info-container__specs-container__spec-card__head">
+                            <i class="fa-solid fa-check"></i>
+                            <span>health and life</span>
+                        </div>
+                        <p class="about-container__info-container__specs-container__spec-card__info">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. h
+                        </p>
+                    </div>
+                    <div class="about-container__info-container__specs-container__spec-card">
+                        <div class="about-container__info-container__specs-container__spec-card__head">
+                            <i class="fa-solid fa-check"></i>
+                            <span>stratgies</span>
+                        </div>
+                        <p class="about-container__info-container__specs-container__spec-card__info">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="about-container__info-container__specs-container__spec-card">
+                        <div class="about-container__info-container__specs-container__spec-card__head">
+                            <i class="fa-solid fa-check"></i>
+                            <span>workout</span>
+                        </div>
+                        <p class="about-container__info-container__specs-container__spec-card__info">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. N
+                        </p>
+                    </div>
+                </div>
+
+                <button class="btn">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="padding-container margin-block" id="features">
+
+        <div class="main-heading-container">
+            <span class="main-heading" data-text="features">features</span>
+        </div>
+
+        <div class="width-container main-features-container">
+
+            <div class="main-features-container__feature-card">
+                <div class="img-container">
+                    <img src="./assets/f-img-1.jpg">
+                </div>
+
+                <div class="main-features-container__feature-card__feature-info">
+                    <img src="./assets/icon-1.png" alt="icon">
+                    <span class="clr-neutral-200">Body Building</span>
+                    <p class="faded">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <button class="btn">read more</button>
+                </div>
+            </div>
+            <div class="main-features-container__feature-card">
+                <div class="main-features-container__feature-card__feature-info">
+                    <img src="./assets/icon-2.png" alt="icon">
+                    <span class="clr-neutral-200">Body Building</span>
+                    <p class="faded">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <button class="btn">read more</button>
+                </div>
+                <div class="img-container">
+                    <img src="./assets/f-img-2.jpg">
+                </div>
+
+            </div>
+            <div class="main-features-container__feature-card">
+                <div class="img-container">
+                    <img src="./assets/f-img-3.jpg">
+                </div>
+
+                <div class="main-features-container__feature-card__feature-info">
+                    <img src="./assets/icon-3.png" alt="icon">
+                    <span class="clr-neutral-200">Body Building</span>
+                    <p class="faded">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <button class="btn">read more</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="padding-container margin-block" id="pricing">
+        <div class="width-container pricing-section">
+            <span class="clr-neutral-200">Pricing Plans</span>
+
+            <div class="pricing-section__pricing-cards-container">
+                <div class="pricing-section__pricing-cards-container__pricing-card">
+                    <span class="heading">affordable pricing plan for you</span>
+                    <p class="faded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa saepe maxime
+                        mollitia
+                        earum recusandae sequi cum totam nostrum ipsum? Est!</p>
+                    <div class="pricing-section__pricing-cards-container__pricing-card__specs-container">
+                        <div class="spec">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="faded">Cardio</span>
+                        </div>
+                        <div class="spec">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="faded">Over All Diet</span>
+                        </div>
+                        <div class="spec">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="faded">Sauna Access</span>
+                        </div>
+                        <div class="spec">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="faded">Diet Plans</span>
+                        </div>
+                        <div class="spec">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="faded">Over All Result Analytics</span>
+                        </div>
+                    </div>
+                    <button class="btn">All Pricings</button>
+                </div>
+
+                <div class="pricing-section__pricing-cards-container__pricing-card neutral-bg slice-bottom">
+                    <span class="sub-heading">basic plan</span>
+                    <div class="amount-container">
+                        <span>$</span>
+                        <span class="clr-neutral-100">30</span>
+                        <span>/Mo</span>
+                    </div>
+                    <div class="pricing-section__pricing-cards-container__pricing-card__specs-container">
+                        <div class="spec">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="faded">Cardio</span>
+                        </div>
+                        <div class="spec">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="faded">Peronal Training</span>
+                        </div>
+                        <div class="spec">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="faded">Weight Lifting</span>
+                        </div>
+                    </div>
+                    <button class="btn">get started</button>
+                </div>
+
+                <div class="pricing-section__pricing-cards-container__pricing-card">
+                    <span class="sub-heading">premium plan</span>
+                    <div class="amount-container">
+                        <span>$</span>
+                        <span class="clr-neutral-100">30</span>
+                        <span>/Mo</span>
+                    </div>
+                    <div class="pricing-section__pricing-cards-container__pricing-card__specs-container">
+                        <div class="spec">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="faded">Diet Plans</span>
+                        </div>
+                        <div class="spec">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="faded">Cardio</span>
+                        </div>
+                        <div class="spec">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="faded">Personal Support</span>
+                        </div>
+                    </div>
+                    <button class="btn">get started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="padding-container margin-block" id="trainers">
+        <div class="trainers-section  width-container">
+            <div class="main-heading" data-text="expert trainers">Expert trainers</div>
+
+            <div class="trainers-section__trainers-cards-container">
+                <div class="trainers-section__trainers-cards-container__trainer-card">
+                    <img src="./assets/trainer-1.jpg" alt="traniner Image">
+
+                    <div class="info">
+                        <span class="clr-neutral-200">Expert Trainer</span>
+                        <div class="name">John Deo</div>
+
+                        <div class="links-container">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-square"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter-square"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-pinterest-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainers-section__trainers-cards-container__trainer-card">
+                    <img src="./assets/trainer-2.jpg" alt="traniner Image">
+
+                    <div class="info">
+                        <span class="clr-neutral-200">Expert Trainer</span>
+                        <div class="name">Rose Chain</div>
+
+                        <div class="links-container">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-square"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter-square"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-pinterest-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainers-section__trainers-cards-container__trainer-card">
+                    <img src="./assets/trainer-3.jpg" alt="traniner Image">
+
+                    <div class="info">
+                        <span class="clr-neutral-200">Expert Trainer</span>
+                        <div class="name">Jhony Bhai</div>
+
+                        <div class="links-container">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-square"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter-square"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-pinterest-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainers-section__trainers-cards-container__trainer-card">
+                    <img src="./assets/trainer-4.jpg" alt="traniner Image">
+
+                    <div class="info">
+                        <span class="clr-neutral-200">Expert Trainer</span>
+                        <div class="name">Mia Nakura</div>
+
+                        <div class="links-container">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-square"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter-square"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-pinterest-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="padding-container margin-block" id="features">
+        <div class="join-us-section width-container">
+            <div class="main-info-container">
+                <span class="clr-neutral-100">join us now</span>
+                <div class="heading">get upto 50% discount</div>
+                <p class="faded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eligendi totam
+                    laborum,
+                    ipsum dolore id nisi repellendus deserunt fugiat? A officia omnis tempore non id.</p>
+                <button class="btn">get discount</button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="padding-container margin-block">
+        <div class="testimonial-section width-container">
+            <div class="testimonial-section__info-container">
+                <span class="clr-neutral-100">Testimonials</span>
+                <div class="heading">what our clients says</div>
+                <p class="faded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, placeat! Rerum,
+                    eius
+                    nam exercitationem et porro eos illo, ipsum perferendis tenetur, enim esse at. Tempore.</p>
+                <button class="btn">read more</button>
+            </div>
+
+            <div class="testimonial-section__testimonial-container">
+                <div class="testimonial-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-section__testimonial-container__testimonial-card slice-bottom">
+                                <p class="faded">Lorem ipsum
+                                    voluptatum in nobis vero rerum!</p>
+                                <div class="bottom-info-container">
+                                    <div class="user-info-container">
+                                        <img src="./assets/pic-1.png" alt="user-image">
+                                        <div class="user-info">
+                                            <span>John Deo</span>
+                                            <span class="clr-neutral-200">Designer</span>
+
+                                        </div>
+                                    </div>
+
+                                    <i class="fa-solid fa-quote-left clr-neutral-200"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-section__testimonial-container__testimonial-card slice-bottom">
+                                <p class="faded">Lorem ipsum
+                                    voluptatum in nobis vero rerum!</p>
+
+                                <div class="bottom-info-container">
+                                    <div class="user-info-container">
+                                        <img src="./assets/pic-2.png" alt="user-image">
+                                        <div class="user-info">
+                                            <span>John Deo</span>
+                                            <span class="clr-neutral-200">Designer</span>
+
+                                        </div>
+                                    </div>
+
+                                    <i class="fa-solid fa-quote-left clr-neutral-200"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-section__testimonial-container__testimonial-card slice-bottom">
+                                <p class="faded">Lorem ipsum
+                                    voluptatum in nobis vero
+                                    rerum!</p>
+                                <div class="bottom-info-container">
+                                    <div class="user-info-container">
+                                        <img src="./assets/pic-3.png" alt="user-image">
+                                        <div class="user-info">
+                                            <span>John Deo</span>
+                                            <span class="clr-neutral-200">Designer</span>
+
+                                        </div>
+                                    </div>
+
+                                    <i class="fa-solid fa-quote-left clr-neutral-200"></i>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-section__testimonial-container__testimonial-card slice-bottom">
+                                <p class="faded">Lorem ipsum
+                                    voluptatum in nobis vero
+                                    rerum!</p>
+                                <div class="bottom-info-container">
+                                    <div class="user-info-container">
+                                        <img src="./assets/pic-4.png" alt="user-image">
+                                        <div class="user-info">
+                                            <span>John Deo</span>
+                                            <span class="clr-neutral-200">Designer</span>
+
+                                        </div>
+                                    </div>
+
+                                    <i class="fa-solid fa-quote-left clr-neutral-200"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-section__testimonial-container__testimonial-card slice-bottom">
+                                <p class="faded">Lorem ipsum
+                                    voluptatum in nobis vero
+                                    rerum!</p>
+                                <div class="bottom-info-container">
+                                    <div class="user-info-container">
+                                        <img src="./assets/pic-1.png" alt="user-image">
+                                        <div class="user-info">
+                                            <span>John Deo</span>
+                                            <span class="clr-neutral-200">Designer</span>
+
+                                        </div>
+                                    </div>
+
+                                    <i class="fa-solid fa-quote-left clr-neutral-200"></i>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-section__testimonial-container__testimonial-card slice-bottom">
+                                <p class="faded">Lorem ipsum
+                                    voluptatum in nobis vero
+                                    rerum!</p>
+                                <div class="bottom-info-container">
+                                    <div class="user-info-container">
+                                        <img src="./assets/pic-3.png" alt="user-image">
+                                        <div class="user-info">
+                                            <span>John Deo</span>
+                                            <span class="clr-neutral-200">Designer</span>
+
+                                        </div>
+                                    </div>
+
+                                    <i class="fa-solid fa-quote-left clr-neutral-200"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="padding-container margin-block" id="blogs">
+        <div class="width-container main-blogs-container">
+            <div class="main-heading" data-text="daily posts">daily posts</div>
+
+            <!-- Slider main container -->
+            <div class="blogs-swiper swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="img-container">
+                            <img src="./assets/blog-1.jpg">
+                        </div>
+                        <div class="blog-info-container">
+                            <div class="top-info">
+                                <span class="clr-neutral-200">By User</span>
+                                <span class="pipe"></span>
+                                <span class="clr-neutral-200">21st May, 2022</span>
+                            </div>
+
+                            <span>fitness is not about being better than someone else</span>
+
+                            <p class="faded">Lorem ipsum dolor. Corporis fuga
+                                totam alias, numquam necessitatibus ullam.</p>
+
+                            <button class="btn">read more</button>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-container">
+                            <img src="./assets/blog-2.jpg">
+                        </div>
+                        <div class="blog-info-container">
+                            <div class="top-info">
+                                <span class="clr-neutral-200">By User</span>
+                                <span class="pipe"></span>
+                                <span class="clr-neutral-200">21st May, 2022</span>
+                            </div>
+
+                            <span>fitness is not about being better than someone else</span>
+
+                            <p class="faded">Lorem ipsum dolor. Corporis fuga
+                                totam alias, numquam
+                                necessitatibus ullam.</p>
+
+                            <button class="btn">read more</button>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-container">
+                            <img src="./assets/blog-3.jpg">
+                        </div>
+                        <div class="blog-info-container">
+                            <div class="top-info">
+                                <span class="clr-neutral-200">By User</span>
+                                <span class="pipe"></span>
+                                <span class="clr-neutral-200">21st May, 2022</span>
+                            </div>
+
+                            <span>fitness is not about being better than someone else</span>
+
+                            <p class="faded">Lorem ipsum dolor. Corporis fuga
+                                totam alias, numquam
+                                necessitatibus ullam.</p>
+
+                            <button class="btn">read more</button>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img-container">
+                            <img src="./assets/blog-4.jpg">
+                        </div>
+                        <div class="blog-info-container">
+                            <div class="top-info">
+                                <span class="clr-neutral-200">By User</span>
+                                <span class="pipe"></span>
+                                <span class="clr-neutral-200">21st May, 2022</span>
+                            </div>
+
+                            <span>fitness is not about being better than someone else</span>
+
+                            <p class="faded">Lorem ipsum dolor. Corporis fuga Lorem ipsum dolor sit amet.</p>
+
+                            <button class="btn">read more</button>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img-container">
+                            <img src="./assets/blog-5.jpg">
+                        </div>
+                        <div class="blog-info-container">
+                            <div class="top-info">
+                                <span class="clr-neutral-200">By User</span>
+                                <span class="pipe"></span>
+                                <span class="clr-neutral-200">21st May, 2022</span>
+                            </div>
+
+                            <span>fitness is not about being better than someone else</span>
+
+                            <p class="faded">fuga Lorem ipsum dolor sit amet.
+                                totam
+                                alias,
+                                numquam
+                                necessitatibus ullam.</p>
+
+                            <button class="btn">read more</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="padding-container">
+
+        <div class="main-footer-container width-container">
+            <ul>
+                <span class="heading">Quick Links</span>
+                <li>
+                    <a href="#home">home</a>
+                </li>
+                <li>
+                    <a href="#about">about</a>
+                </li>
+                <li>
+                    <a href="#features">features</a>
+                </li>
+                <li>
+                    <a href="#pricing">pricing</a>
+                </li>
+                <li>
+                    <a href="#trainers">trainers</a>
+                </li>
+                <li>
+                    <a href="#blogs">blogs</a>
+                </li>
+            </ul>
+
+            <ul>
+                <span class="heading">Opening Hours</span>
+
+                <li>
+                    <span>monday:</span>
+                    <span class="clr-neutral-200">7:00am - 10:00pm</span>
+                </li>
+
+                <li>
+                    <span>tuesday:</span>
+                    <span class="clr-neutral-200">7:00am - 10:00pm</span>
+                </li>
+
+                <li>
+                    <span>wednesday:</span>
+                    <span class="clr-neutral-200">7:00am - 10:00pm</span>
+                </li>
+
+                <li>
+                    <span>thursday:</span>
+                    <span class="clr-neutral-200">7:00am - 10:00pm</span>
+                </li>
+
+                <li>
+                    <span>friday:</span>
+                    <span class="clr-neutral-200">7:00am - 10:00pm</span>
+                </li>
+
+                <li>
+                    <span>saturday:</span>
+                    <span class="clr-neutral-200">7:00am - 10:00pm</span>
+                </li>
+            </ul>
+
+            <ul class="contact">
+                <span class="heading">contact</span>
+
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +123 - 4322 - 211
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +411 - 4322 - 211
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    sourav@gamil.com
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Hoshiarpur, Punjab, India - 41122
+                </li>
+
+
+                <li class="links-container">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest-square"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+            <form class="news-letter-container">
+                <span class="heading">newsletter</span>
+
+                <div>
+                    <span class="faded">subsribe for newsletter updates</span>
+                    <input type="email" placeholder="enter your email">
+                </div>
+
+                <button type="submit" class="btn">subscribe</button>
+            </form>
+
+        </div>
+
+    </footer>
+
+    <div class="copyright-container padding-container">
+        <div class="container">
+            <span> Created By <span class="clr-neutral-100">SouravNub</span></span> <span class="pipe"></span>
+            All
+            Rights Reserved
+            !
+        </div>
+    </div>
+
+
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>
